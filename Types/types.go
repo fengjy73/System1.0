@@ -75,7 +75,7 @@ type GetUserResponse struct {
 	Data User
 }
 type GetUserListRequest struct {
-	Offest int
+	Offset int
 	Limit  int
 }
 type GetUserListResponse struct {
